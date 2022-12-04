@@ -1,6 +1,6 @@
 # Thinkfulbnb
 
-##View App
+## View App
 https://raycmendoza.github.io/starter-thinkfulbnb/
 
 
