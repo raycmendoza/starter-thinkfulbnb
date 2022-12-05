@@ -157,6 +157,18 @@ footer p {
   header nav ul li {
     padding: 0 8px;
   }
+  .picture-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .col2 {
+    flex: 1 0 calc(35% - 20px);
+    margin: 5px;
+  }
+  .padding {
+    margin: 10px;
+  }
 
   /* ------- Stay ------- */
   #stay form {
@@ -223,38 +235,9 @@ footer p {
 
   /* ------- Ideas ------- */
 
-  #ideas .ideas-container {
-    display: flex;
-    justify-content: space-between;
-    width: 900px;
-    margin: 40px auto;
-  }
-
-  #ideas img {
-    width: 350px;
-    padding: 20px;
-  }
-
-  #ideas .forests {
-    display: flex;
+  .col2 {
     flex-direction: column;
-  }
-
-  #ideas .beaches {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #ideas .invis-mobile {
-    display: inline-block;
-  }
-
-  #ideas .rustic-cabins {
-    display: none;
-  }
-
-  #ideas .pet-friendly {
-    display: none;
+    align-items: center;
   }
 
   /* ------- Host ------- */
